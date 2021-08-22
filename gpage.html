@@ -13,24 +13,28 @@
 </head>
 <body>
     <header>
+        <div class="nav">
         <nav>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><ion-icon name="apps"></ion-icon></li>
-                <li> <img src="./images/anime-eli.jpg" height="40vh" width="40vw" alt="profile pic of Eli"> </li>
+                <li class="mail">Gmail</li>
+                <li class="mail">Images</li>
+                <li id="apps"><ion-icon name="apps"></ion-icon></li>
+                <li> <img id="pro-pic" src="./images/anime-eli.jpg" height="" width="" alt="profile pic of Eli"> </li>
             </ul>
         </nav>
+      </div>
     </header>
 
-    <main>
+    <main class="main">
         <div class="logo">
-            <img src="./images/googlelogo.jpg" width="100px" height="50px" alt="google logo">
+            <img src="./images/googlelogo.jpg" width=" " height="200" alt="google logo">
         </div>
 
         <div class="form">
             <form action="">
+                <ion-icon name="search"></ion-icon>
                 <input type="text" name="search">
+                <ion-icon name="mic"></ion-icon>
              </form>
         </div>
 
@@ -49,9 +53,10 @@
         </div>
          
     </main>
-
+    <div class="space"></div>
     <footer>
-        <p>Uganda</p> 
+    
+        <p class="uga">Uganda</p> 
         
         <div class="footer-menu">
             <div class="first">
@@ -71,6 +76,7 @@
                 </ul>
             </div>
         </div>
+       
     </footer>
     
 </body>
