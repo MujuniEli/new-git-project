@@ -5,6 +5,8 @@ body{
     text-align: center;
 } */
 
+
+
  .nav{
     display: flex;
     align-items: center;
@@ -83,7 +85,9 @@ a{
 input{
     border: none;
     width: 400px;
+    outline: none;
 }
+
 
 button {
     background-color: #f8f9fa;
@@ -156,6 +160,20 @@ footer{
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* @media(max-width:500px){
+    .footer-menu{
+        display: block;
+    }
+
+    .form{
+        width: 200px;
+    }
+
+    input{
+        width: 180px;
+    }
+} */
 
 
 
